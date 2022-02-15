@@ -30,10 +30,14 @@ header{
 }
 
 a:hover{
-    border-radius: 50px;
+    border-radius: 40px;
     background-color: #49006B;
 }
 
+.header--verticleLine{
+    border-left: 3px solid #FFFFFF;
+    height: 95px;
+}
 .footer{
     position: fixed;
     padding: 10px 10px 0px 10px;
