@@ -29,7 +29,12 @@ header{
     font-size: 26px;
 }
 
-a:hover{
+.header--about:hover{
+    border-radius: 40px;
+    background-color: #49006B;
+}
+
+.header--home:hover{
     border-radius: 40px;
     background-color: #49006B;
 }
@@ -41,10 +46,10 @@ a:hover{
 .footer{
     position: fixed;
     font-family: 'Roboto', sans-serif;
-    padding: 10px 10px 0px 10px;
+    padding: 70px 20px 0px;
     bottom: 0;
     width: 100%;
-    height: 250px;
+    height: 280px;
     color: #FFFFFF;
     background: #000000;
 }
@@ -52,4 +57,39 @@ a:hover{
 .footer--img{
     display : flex;
     align-items : center;
+    padding : 15px 0px;
+}
+
+.footer--icon{
+    padding-right: 25px;
+}
+
+.footer--content{
+    display: flex;
+    padding: 0px 40px;
+}
+
+.footer--title{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.footer--copyright{
+    font-size : 13px;
+}
+
+.footer--nav{
+    display : flex;
+    align-items : center;
+    position: absolute;
+    right : 60px;
+}
+
+.footer--home, .footer--about{ 
+    text-align: center;
+    color : #FFFFFF;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
 }
