@@ -17,6 +17,7 @@ header{
 
 .header--nav{
     display : flex;
+    align-items : center;
     position: absolute;
     right : 10px;
 }
@@ -27,6 +28,10 @@ header{
     font-size: 26px;
 }
 
+a:hover{
+    border-radius: 50px;
+    background-color: #49006B;
+}
 .footer{
     position: fixed;
     padding: 10px 10px 0px 10px;
