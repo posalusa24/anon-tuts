@@ -22,8 +22,9 @@ header{
     right : 10px;
 }
 .header--home, .header--about{ 
+    text-align: center;
     color : #FFFFFF;
-    padding-right: 60px;
+    padding: 0px 30px;
     text-decoration: none;
     font-size: 26px;
 }
@@ -32,6 +33,7 @@ a:hover{
     border-radius: 50px;
     background-color: #49006B;
 }
+
 .footer{
     position: fixed;
     padding: 10px 10px 0px 10px;
