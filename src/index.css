@@ -1,9 +1,30 @@
+body{
+    background : #1D1D1D ;
+}
+
 header{
     display : flex;
     align-items : center;
     background-color: #7600AE;
     padding: 30px 25px;
-    color : #FFFFFF
+    font-family: 'Roboto', sans-serif;
+}
+
+.header--title{
+    font-size: 42px;
+    color : #FFFFFF;
+}
+
+.header--nav{
+    display : flex;
+    position: absolute;
+    right : 10px;
+}
+.header--home, .header--about{ 
+    color : #FFFFFF;
+    padding-right: 60px;
+    text-decoration: none;
+    font-size: 26px;
 }
 
 .footer{
