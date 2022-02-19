@@ -44,7 +44,7 @@ header{
     height: 95px;
 }
 .footer{
-    
+    position: fixed;
     font-family: 'Roboto', sans-serif;
     padding: 20px 20px 0px;
     bottom: 0;
@@ -93,21 +93,3 @@ header{
     font-size: 36px;
     font-weight: bold;
 }
-
-.myanmarKwa--img{
-    width: 100%;
-}
-
-.myanmarKwa--content{
-    position: absolute;
-    top : 800px;
-    right : 500px;
-    text-align: center;
-}
-
-.myanmarKwa--text{
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;
-    color : #FFFFFF;
-}
-
